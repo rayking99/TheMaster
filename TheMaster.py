@@ -8,7 +8,7 @@ import pyloudnorm as pyln
 import os
 
 tracks = glob.glob('/path/to/**.wav')
-# tracks = ['/Users/jaso/code/masters/548_pro/og/6 skalet.wav','/Users/jaso/code/masters/548_pro/og/12 beperfect.wav']
+
 output_folder = '/path/out/'
 
 pre_loud = []
