@@ -57,7 +57,7 @@ for track in tracks:
     '''
 
     pro_l = load_plugin('/path/to/vsts/FabFilter Pro-L 2.vst3')
-    pro_l.oversampling = 'Off'
+    pro_l.oversampling = '32x'
     pro_l.filter_dc_offset = True
     pro_l.style = 'Transparent'
     pro_l.attack = '4100 ms'
