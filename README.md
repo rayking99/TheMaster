@@ -3,10 +3,14 @@ Implementation of Spotify Pedalboard for Mastering.
 
 You will need:
 
-pip install pedalboard
-pip install pyloudnorm
-pip install soundfile
-brew install ffmpeg
+-  pip install pedalboard
+
+-  pip install pyloudnorm
+
+-  pip install soundfile
+
+-  brew install ffmpeg
+
 
 
 Highly recommend Fabfilter Pro-L2 and Oeksound Soothe 2 (they're a little bit expensive but top of the line.)
@@ -16,7 +20,7 @@ It's a pretty good levelling mastering engine - all the tracks in an album end u
 
 I've set it to -13.5 as this will result in just a little louder than -14.. the results are below.
 
-Sound quality is pretty amazing with the 32x oversample on L2 and a good Soothe preset (though, you have to manually enter this info into the loop.)
+Sound quality is pretty amazing with the 32x oversample on L2 and a good Soothe preset - you can change these settings in the TheMaster.py if you like. 
 
 It's very simply built - just input the folder name of inputs, folder name of outputs and hit run. 
 
